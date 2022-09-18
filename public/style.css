@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+header {
+    text-align: center;
+}
+
+#change_username,
+.inputZ {
+    border: 4px outset blueviolet;
+}
+
+#change_username {
+    height: 3%;
+    display: inline-block;
+    background-color: aqua;
+}
+
+#chatroom {
+    border: 4px outset blueviolet;
+    height: 75%;
+    overflow: auto;
+}
+
+#input_zone {
+    height: 5%;
+    text-align: center;
+    background-color: aqua;
+}
+
+#message {
+    width: 90%;
+    display: inline-block;
+    height: 70%;
+}
+
+#send_message {
+    display: inline-block;
+    height: 100%;
+    width: 9%;
+}
+
+.message {
+    width: 100%;
+    height: 50px;
+    font-size: 2vh;
+    font-family: 'Comic Sans ms', sans-serif;
+    padding: 1vh;
+}
+
+.message:nth-child(even) {
+    background-color: coral;
+}
+
+.message:nth-child(odd) {
+    background-color: forestgreen;
+}
+
+.nick {
+    color: red;
+}
+
+#feedback {
+    top: 70%;
+}
